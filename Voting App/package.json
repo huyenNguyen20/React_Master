@@ -1,0 +1,16 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server",
+    "server": "live-server public --host=localhost --port=3001 --middleware=./disable-browser-cache.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullstackio/live-server": "^1.2.2",
+    "concurrently": "^5.0.2"
+  }
+}
